@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IT012 - Gerenciador Wifi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <div class="topnav">
+    <h1>IT012 - Gerenciador Wifi</h1>
+  </div>
+  <div class="content">
+    <div class="card-grid">
+      <div class="card">
+        <form action="/" method="POST">
+          <h2> Dados Rede Wi-Fi</h2>
+          <p>
+            <label for="ssid">SSID</label>
+            <input type="text" id ="ssid" name="ssid" required><br>
+            <label for="password">Senha</label>
+            <input type="text" id ="password" name="password" required><br>
+          <p/>
+          <h2> Dados ThingSpeak</h2>
+          <p>
+            <label for="disp">Dispositivo</label>
+            <input type="text" id ="disp" name="disp" required><br>
+            <label for="channel">Canal</label>
+            <input type="text" id ="channel" name="channel" required><br>
+            <label for="key">Write API KEY</label>
+            <input type="text" id ="key" name="key"required><br>
+            <input type ="submit" value ="Enviar">
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
